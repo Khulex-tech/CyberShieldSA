@@ -15,26 +15,16 @@ namespace CyberShieldSA
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
 
-            // ==========================================
-            // PLAY WELCOME AUDIO
-            // ==========================================
+            // calling method to play welcome audio
             PlayAudio audio = new PlayAudio();
             audio.PlayWelcome();
 
-            // ==========================================
-            // DISPLAY ASCII IMAGE LOGO
-            // ==========================================
+            // calling the method to display the image
             Console.ForegroundColor = ConsoleColor.Cyan;
             new Logo();
 
             Console.ResetColor();
 
-            // Small delay for better user experience
-            Thread.Sleep(1500);
-
-            // ==========================================
-            // START CHATBOT
-            // ==========================================
             ChatBot bot = new ChatBot();
             bot.StartChat();
 
