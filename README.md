@@ -42,4 +42,25 @@ Users can ask about:
 
 ---
 
-## 📂 Project Structure
+
+---
+
+## ▶️ How to Run
+
+1. Open the project in **Visual Studio**
+2. Make sure the **assets folder** contains the audio and logo
+3. Build and run the project
+4. Enter your name and start chatting with the bot 💬
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates:
+
+- C# console programming
+- Basic chatbot logic
+- User interaction
+- Cybersecurity awareness
+
+Stay safe online! 🔐
