@@ -106,7 +106,7 @@ namespace CyberShieldSA
                     history.Add(response);
                 }
 
-                // CYBERSECURITY TIPS
+                //tips
                 else if (ContainsKeyword(userInput, "tip", "tips"))
                 {
                     string[] tips =
@@ -125,7 +125,7 @@ namespace CyberShieldSA
                     history.Add("Bot: " + tip);
                 }
 
-                // SHOW HISTORY
+                // to show history
                 else if (ContainsKeyword(userInput, "history"))
                 {
                     Console.WriteLine("\nConversation History:\n");
@@ -136,7 +136,7 @@ namespace CyberShieldSA
                     }
                 }
 
-                // EXIT COMMANDS
+                // exit commands
                 else if (ContainsKeyword(userInput, "exit", "quit", "bye", "sharp", "close"))
                 {
                     Console.ForegroundColor = ConsoleColor.Magenta;
@@ -179,6 +179,7 @@ namespace CyberShieldSA
             Console.ForegroundColor = ConsoleColor.Blue;
 
             Console.WriteLine(@"
+
                         ██████████████████████████████████████████████████████████████
                         █                                                            █
                         █                 CYBERSHIELD SA CHATBOT                     █
