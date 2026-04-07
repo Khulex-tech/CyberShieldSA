@@ -10,6 +10,7 @@ namespace CyberShieldSA
     {
         static void Main(string[] args)
         {
+            new Logo();
         }
     }
 }
